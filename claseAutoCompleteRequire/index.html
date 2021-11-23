@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Contenido de soporte para buscador / SEO">
+        <meta name="robots" content="index.follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="#">
+        <title>AutoComplete y Require</title>
+    </head>
+    <body>
+        <header>
+            <h1>This is the header</h1>
+        </header>
+        <main>
+            <form action="">
+                <label for="nombre">
+                    <span>Cual es tu nombre? </span>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+                </label>
+                <label for="correo">
+                    <span>Cual es tu correo? </span>
+                    <input type="email" id="correo" nombre="correo" placeholder="example@domain.com" autocomplete="email" required>
+                </label>
+                <label for="pais">
+                    <span>En que pais vives? </span>
+                    <input type="text" id="pais" nombre="pais" placeholder="Tu pais" autocomplete="country">
+                </label>
+                <label for="cp">
+                    <span>Codigo postal: </span>
+                    <input type="number" id="cp" name="cp" autocomplete="postal-code">
+                </label>
+                <input type="submit">
+            </form>
+        </main>
+        <footer>
+            <p>This is the footer</p>
+        </footer>
+    </body>
+</html>
