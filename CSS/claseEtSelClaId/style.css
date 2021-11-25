@@ -1,0 +1,20 @@
+/*Etiqueta*/
+
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+/*Class*/
+
+.parrafo{
+    color: red;
+    font-size: 30px;
+}
+
+/* ID */
+
+#texto{
+    color: yellowgreen;
+    font-size: 20px;
+}
