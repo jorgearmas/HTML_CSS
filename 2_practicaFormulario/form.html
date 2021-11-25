@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Descripcion de soporte para buscador / SEO">
+        <meta name="robots" content="form.follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="#">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <header>
+            <h2>Add a new character</h2>
+        </header>
+        <main>
+            <section>
+                <form action="#">
+                    <label for="name">
+                        <span>Characte´s name: </span>
+                        <input type="text" name="name" id="name" autocomplete="name" required>
+                    </label>
+                    <span>Role: </span>
+                    <select name="role" id="role" required>
+                        <option value="main">Main character</option>
+                        <option value="secondary">Secondary character</option>
+                        <option value="supp">Support character</option>
+                    </select>
+                    <label for="dob">
+                        <span>Date of Birth</span>
+                        <input type="date" name="dob" id="dob" autocomplete="bday-day" required>
+                    </label>
+                    <input type="submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>This is the footer</p>
+        </footer>
+    </body>
+</html>
