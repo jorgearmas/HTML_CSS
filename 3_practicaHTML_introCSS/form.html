@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Descripcion de soporte para buscador / CSS">
+        <meta name="robots" content="form.follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./formStyle.css">
+        <title>Forms!</title>
+    </head>
+    <body>
+        <header>
+            <nav class="main-nav">
+                <ul class="main-nav__item"><a href="./index.html">Home</a></ul>
+                <ul class="main-nav__item"><a href="./painters.html">Painters</a></ul>
+                <ul class="main-nav__item"><a href="./boxModel.html">Box Model</a></ul>
+            </nav>
+        </header>
+        <body>
+            <section>
+                <form class="main-form" action="#">
+                    <ul class="main-form__list">
+                        <li>
+                            <label for="name">
+                                <span class="main-form__list__s">Name: </span>
+                                <input type="text" id="name" name="name" autocomplete="name" required>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="relevance">
+                                <span class="main-form__list__s">Relevance: </span>
+                                <select name="relevance" id="relevance" required>
+                                    <option value="main">Main Character</option>
+                                    <option value="secondary">Secondary Character</option>
+                                    <option value="support">Support Character</option>
+                                </select>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="dob">
+                                <span class="main-form__list__s">Date of Birth: </span>
+                                <input type="date" id="dob" name="dob" autocomplete="bday-day" required>
+                            </label>
+                        </li>
+                        <li>
+                            <input type="submit" value="Add">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </body>
+    </body>
+</html>

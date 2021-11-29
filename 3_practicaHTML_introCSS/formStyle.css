@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    list-style: none;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    background-color: royalblue;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.main-nav__item a:active{
+    color: yellowgreen;
+}
+
+.main-form{
+    padding-top: 10px;
+}
+
+.main-form__list{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.main-form__list__s{
+    font-family: monospace;
+    font-size: 24px;
+    color: gray;
+}

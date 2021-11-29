@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    list-style: none;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.main-nav__item a:active{
+    color: yellowgreen;
+}
+
+.txt{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: monospace;
+    font-size: 24px;
+}
