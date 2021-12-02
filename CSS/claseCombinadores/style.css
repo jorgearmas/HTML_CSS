@@ -1,0 +1,4 @@
+/*Aplicar fuente roja a todas las etiquetas p cercanas a h2*/
+h2 + p{
+    color: red;
+}
