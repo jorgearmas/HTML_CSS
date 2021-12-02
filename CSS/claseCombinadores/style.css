@@ -1,4 +1,11 @@
+
 /*Aplicar fuente roja a todas las etiquetas p cercanas a h2*/
-h2 + p{
+/* h2 + p{
+    color: red;
+} */
+
+/*Aplicar fuente roja a todas las etiquetas p que tingan como hermano general a h2*/
+
+h2 ~ p {
     color: red;
 }
