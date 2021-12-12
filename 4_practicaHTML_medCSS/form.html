@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Contenido de soporte para buscador / SEO">
+        <meta name="robots" content="form.follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form!</title>
+        <link rel="stylesheet" href="./style_form.css">
+    </head>
+    <body>
+        <header>
+            <nav class="main-nav">
+                <ul class="main-nav_list">
+                    <li><a class="main-nav_list__btn" href="./index.html">Home</a></li>
+                    <li><a href="./imgs.html">Imgs</a></li>
+                    <li><a href="">Box Model</a></li>
+                    <li><a href="">Herencia</a></li>
+                    <li><a href="">Especificidad</a></li>
+                    <li><a href="">Combinadores</a></li>
+                    <li><a href="">Medidas</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="main-form">
+                <form action="#">
+                    <ul class="main-form__list">
+                        <li>
+                            <label for="name">
+                                <span>Name: </span>
+                                <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="dob">
+                                <span>Date of birth: </span>
+                                <input type="date" id="dob" name="dob" autocomplete="bday-day" required>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="fav_time">
+                                <span>Date of enrollment: </span>
+                                <input type="time" id="fav_time" name="fav_time">
+                            </label>
+                        </li>
+                        <li>
+                            <label for="full_calendar">
+                                <span>Full time info: </span>
+                                <input type="datetime-local" id="full_calendar" name="full_calendar">
+                            </label>
+                        </li>
+                        <li>
+                            <span>Main Courses: </span>
+                            <select name="main_courses" id="m_courses">
+                                <option value="1">Math</option>
+                                <option value="2">Natural Sciences</option>
+                                <option value="3">History</option>
+                                <option value="4">Physics</option>
+                            </select>
+                        </li>
+                        <li>
+                            <span>Secondary Courses: </span>
+                            <input list="secondary_courses" name="secondary_courses">
+                            <datalist id="secondary_courses">
+                                <option value="Old Art"></option>
+                                <option value="Modern Art"></option>
+                                <option value="Literature"></option>
+                                <option value="Astronomy"></option>
+                                <option value="Quantum Physics"></option>
+                                <option value="Design"></option>
+                                <option value="Music"></option>
+                                <option value="Sports"></option>
+                            </datalist>
+                        </li>
+                        <li>
+                            <input type="submit" value="Add">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
