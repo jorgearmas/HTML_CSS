@@ -37,3 +37,23 @@ html{
 .main-nav_list .main-nav_list__btn{
     color: blue;
 }
+
+#id_title{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.class_title{
+    font-size: 3rem;
+    padding: 10px;
+}
+
+h1{
+    font-size: 4rem;
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+    font-size: 1.8rem;
+}
