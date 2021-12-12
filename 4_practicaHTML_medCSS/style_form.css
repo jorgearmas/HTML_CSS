@@ -30,6 +30,10 @@ html{
     margin-right: 3px;
 }
 
+.main-nav_list a:active{
+    color: red;
+}
+
 .main-nav_list .main-nav_list__btn{
     color: blue;
 }
