@@ -10,7 +10,8 @@ html{
 
 .parent{
     display: inline-block;
-    border: 3px solid yellow
+    border: 3px solid yellow;
+    background-color: yellow;
 }
 
 .card-title{
@@ -19,7 +20,7 @@ html{
     font-family: fantasy;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 4px;
 }
 
 .hero-name{
@@ -28,4 +29,10 @@ html{
     border: 3px solid yellow;
     font-family: fantasy;
     text-align: center;
+    background-color: yellow;
+}
+
+img{
+    width: 280px;
+    height: 483px;
 }
