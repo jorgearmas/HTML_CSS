@@ -1,0 +1,35 @@
+:root{
+    --primary-color: #003476;
+    --secondary-color: #b4d2f7;
+    --header-size: 4rem;
+    --font: 1.8rem;
+    --reg-width: 100vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+header{
+    width: var(--reg-width);
+    height: 15vh;
+    background-color: var(--primary-color);
+}
+main{
+    width: var(--reg-width);
+    height: 70vh;
+    font-size: var(--font);
+}
+h1{
+    font-size: var(--header-size);
+    color: var(--primary-color);
+}
+footer{
+    width: var(--reg-width);
+    height: 15vh;
+    background-color: var(--secondary-color);
+}
