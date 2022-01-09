@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+.main-nav{
+    background-color: black;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav__list li{
+    list-style: none;
+    padding: 5px;
+}
+
+.main-nav__list a{
+    color: white;
+    font-size: 2.5rem;
+}
